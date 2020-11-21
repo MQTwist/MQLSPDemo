@@ -12,11 +12,11 @@
 		483E73442567AF0D00BD0600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E73432567AF0D00BD0600 /* ViewController.m */; };
 		483E73472567AF0D00BD0600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483E73452567AF0D00BD0600 /* Main.storyboard */; };
 		483E73492567AF0D00BD0600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483E73482567AF0D00BD0600 /* Assets.xcassets */; };
-		483E734C2567AF0D00BD0600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483E734A2567AF0D00BD0600 /* LaunchScreen.storyboard */; };
 		483E734F2567AF0D00BD0600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E734E2567AF0D00BD0600 /* main.m */; };
 		483E73632567CDD000BD0600 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E73622567CDD000BD0600 /* Message.m */; };
 		483E73672567CDE700BD0600 /* ImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E73662567CDE700BD0600 /* ImageMessage.m */; };
 		483E736B2567CFD500BD0600 /* LSPImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E736A2567CFD500BD0600 /* LSPImageMessage.m */; };
+		4845F52825691AD100A6C287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4845F52725691AD100A6C287 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,6 @@
 		483E73432567AF0D00BD0600 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		483E73462567AF0D00BD0600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		483E73482567AF0D00BD0600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		483E734B2567AF0D00BD0600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483E734D2567AF0D00BD0600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		483E734E2567AF0D00BD0600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		483E73612567CDD000BD0600 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		483E73662567CDE700BD0600 /* ImageMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMessage.m; sourceTree = "<group>"; };
 		483E73692567CFD500BD0600 /* LSPImageMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPImageMessage.h; sourceTree = "<group>"; };
 		483E736A2567CFD500BD0600 /* LSPImageMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPImageMessage.m; sourceTree = "<group>"; };
+		4845F52725691AD100A6C287 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 				483E736A2567CFD500BD0600 /* LSPImageMessage.m */,
 				483E73452567AF0D00BD0600 /* Main.storyboard */,
 				483E73482567AF0D00BD0600 /* Assets.xcassets */,
-				483E734A2567AF0D00BD0600 /* LaunchScreen.storyboard */,
+				4845F52725691AD100A6C287 /* LaunchScreen.storyboard */,
 				483E734D2567AF0D00BD0600 /* Info.plist */,
 				483E734E2567AF0D00BD0600 /* main.m */,
 			);
@@ -147,7 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483E734C2567AF0D00BD0600 /* LaunchScreen.storyboard in Resources */,
+				4845F52825691AD100A6C287 /* LaunchScreen.storyboard in Resources */,
 				483E73492567AF0D00BD0600 /* Assets.xcassets in Resources */,
 				483E73472567AF0D00BD0600 /* Main.storyboard in Resources */,
 			);
@@ -179,14 +179,6 @@
 				483E73462567AF0D00BD0600 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		483E734A2567AF0D00BD0600 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				483E734B2567AF0D00BD0600 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
