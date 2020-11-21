@@ -14,6 +14,9 @@
 		483E73492567AF0D00BD0600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483E73482567AF0D00BD0600 /* Assets.xcassets */; };
 		483E734C2567AF0D00BD0600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483E734A2567AF0D00BD0600 /* LaunchScreen.storyboard */; };
 		483E734F2567AF0D00BD0600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E734E2567AF0D00BD0600 /* main.m */; };
+		483E73632567CDD000BD0600 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E73622567CDD000BD0600 /* Message.m */; };
+		483E73672567CDE700BD0600 /* ImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E73662567CDE700BD0600 /* ImageMessage.m */; };
+		483E736B2567CFD500BD0600 /* LSPImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E736A2567CFD500BD0600 /* LSPImageMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		483E734B2567AF0D00BD0600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483E734D2567AF0D00BD0600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		483E734E2567AF0D00BD0600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		483E73612567CDD000BD0600 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		483E73622567CDD000BD0600 /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		483E73652567CDE700BD0600 /* ImageMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMessage.h; sourceTree = "<group>"; };
+		483E73662567CDE700BD0600 /* ImageMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMessage.m; sourceTree = "<group>"; };
+		483E73692567CFD500BD0600 /* LSPImageMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPImageMessage.h; sourceTree = "<group>"; };
+		483E736A2567CFD500BD0600 /* LSPImageMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPImageMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				483E73402567AF0D00BD0600 /* SceneDelegate.m */,
 				483E73422567AF0D00BD0600 /* ViewController.h */,
 				483E73432567AF0D00BD0600 /* ViewController.m */,
+				483E73612567CDD000BD0600 /* Message.h */,
+				483E73622567CDD000BD0600 /* Message.m */,
+				483E73652567CDE700BD0600 /* ImageMessage.h */,
+				483E73662567CDE700BD0600 /* ImageMessage.m */,
+				483E73692567CFD500BD0600 /* LSPImageMessage.h */,
+				483E736A2567CFD500BD0600 /* LSPImageMessage.m */,
 				483E73452567AF0D00BD0600 /* Main.storyboard */,
 				483E73482567AF0D00BD0600 /* Assets.xcassets */,
 				483E734A2567AF0D00BD0600 /* LaunchScreen.storyboard */,
@@ -147,8 +162,11 @@
 			files = (
 				483E73442567AF0D00BD0600 /* ViewController.m in Sources */,
 				483E733E2567AF0D00BD0600 /* AppDelegate.m in Sources */,
+				483E73632567CDD000BD0600 /* Message.m in Sources */,
 				483E734F2567AF0D00BD0600 /* main.m in Sources */,
 				483E73412567AF0D00BD0600 /* SceneDelegate.m in Sources */,
+				483E73672567CDE700BD0600 /* ImageMessage.m in Sources */,
+				483E736B2567CFD500BD0600 /* LSPImageMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
